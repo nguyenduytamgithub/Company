@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/ndhha/Softs/arduino-1.8.2/hardware/arduino/avr/cores/arduino",
+                "/home/ndhha/Arduino/libraries"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "/home/ndhha/Softs/arduino-1.8.2/hardware/arduino/avr/cores/arduino",
+                    "/home/ndhha/Arduino/libraries"
+                ]
+            }
+        }
+    ]
+}

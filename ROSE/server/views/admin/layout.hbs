@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>{{title}}</title>
+		
+		{{{block "css-partial"}}}
+		{{{block "css"}}}
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="wrapper">
+				{{{body}}}
+			</div>
+		</div>
+		{{{block "js-partial"}}}
+		{{{block "js"}}}
+	</body>
+</html>

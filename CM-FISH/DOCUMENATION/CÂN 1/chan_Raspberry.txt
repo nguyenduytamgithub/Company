@@ -1,0 +1,27 @@
+﻿Các chân sử dụng cho mạch cân thùng điện cân cá.   											
++ chân slection: 	9,10,11			 				 (3 chân) wiring pi ping:   13,12,14 
++ chân data: 		24,26			 				 (2 chân)					5,25
++ chân clk: 		25,27					 	  	 (2 chân)					6,2
++ chân shiftout: 	16,17,18					     (3 chân)					27,0,1
++ chân button: 	 	5,6,13,19 (trái) 7,8,23 (phải)   (7 chân)					21,22,23,24,11,10,4
++ chân led shutdown: 12								 (1 chân) 					26
+--------------------------------------------------------------------------------------------
++ sheet avaliable on pi 3: 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27  -
++ sheet on left (groups neariling): 4-17,27,22-10,9,11--5,6,13,19,26                       -
++ sheet on right(groups neariling): 14,15,18-23,24-25,8,7--12-16,20,21					   -
+* cautions: "-" khoảng cách cho các chân (1 dấu - bằng cách 1 chân không dùng)			   -
+		  "," nhóm có chân gần nhau														   -
+* tham khảo: https://github.com/nebrius/raspi-io/wiki/Pin-Information					   -
+--------------------------------------------------------------------------------------------
+
+Buttons: [21, 22, 23, 24, 11, 10, 4],
+	ShutdownLED: 26,
+	ShiftoutLED: {
+		latch: 0,		
+		data:  27,
+		clock: 1,	
+	},	
+	SelectionPins: [13, 12, 14],
+	DATA: [5, 25],	
+	CLOCK:[6, 2],
+	

@@ -1,0 +1,15 @@
+.banner {
+	color: white;
+	background-color: rgba(76, 175, 80, 0.4);
+	height: 70px;
+	width: 100%;
+	padding-top: 15px;
+}
+
+.center {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	-webkit-transform: translate(-50%, -30%);
+	transform: translate(-50%, -30%);
+}
