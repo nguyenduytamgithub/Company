@@ -1,7 +1,7 @@
 int arr_soil[10] = {A0, A1, A2, A3, A4, A5, A6, A7, A8, A9};
 int arr_soil_avl[10] = {0};
 #define ROLE 2
-#define BT_ROLE 3
+#define BT_ROLE 8
 #define VALUE 50  // nguong bom
 //#define NUM 2 // so luong toi thieu duoi nguong
 int num_soil = 10;
@@ -161,7 +161,7 @@ void loop () {
  }
  //========== cap nhat chuoi rong
 
-  if (check_soil(arr_convert) || read_button()) {
+  if (read_button()) {
  // if ( read_button()) {
    // Serial.println(bien);
     digitalWrite(ROLE, 1);
