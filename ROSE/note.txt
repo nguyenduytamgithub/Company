@@ -1,2 +1,0 @@
-- Tạo thư mục PendRose trong public/images
-- Chuyển các review vào thư mục rose trong review/rose
